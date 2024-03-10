@@ -28,7 +28,7 @@ public class RedBusCode {
 				String[] parts = input.split(" ");
 				String monthPart = parts[0];
 				String yearPart = parts[1];
-				if (monthPart.equalsIgnoreCase("sep") && yearPart.length() == 4) {
+				if (monthPart.equalsIgnoreCase("sept") && yearPart.length() == 4) {
 					formatter = DateTimeFormatter.ofPattern("MMMM yyyy", Locale.ENGLISH);
 				} else {
 					formatter = DateTimeFormatter.ofPattern("MMM yyyy", Locale.ENGLISH);
